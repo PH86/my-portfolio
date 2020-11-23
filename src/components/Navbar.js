@@ -71,7 +71,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--primary'>Contact</Button>}
+          {button && <Button buttonStyle='btn--primary' link="/my-portfolio/contact">Contact</Button>}
         </div>
       </nav>
     </>

@@ -12,7 +12,7 @@ function HeroSection(props) {
     <p>{props.pageDesc}</p>
            
            <Button className="btns" buttonStyle="btn--primary"
-                buttonSize="btn--large">About Me</Button>
+                buttonSize="btn--large" link="/my-portfolio/about">About Me</Button>
                 
         </div>
         </div>
