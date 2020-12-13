@@ -39,7 +39,7 @@ function Cards(props) {
            <ul className='cards__items'>
             <CardItem
               src={Tile}
-              text='Tile Company'
+              text='Tile Company App'
              
               path='https://ph86.github.io/tile-app'
             />
