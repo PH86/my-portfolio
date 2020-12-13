@@ -4,6 +4,7 @@ import CardItem from './CardItem';
 import Lab from '../Images/projectLab.png';
 import Placeholder from '../Images/img-03.jpeg';
 import Tempest from '../Images/projectTempest.png';
+import Tile from '../Images/projectTile.png';
 import OriginalPort from '../Images/origin-Portfo.png';
 
 
@@ -37,10 +38,10 @@ function Cards(props) {
            </ul>
            <ul className='cards__items'>
             <CardItem
-              src={Placeholder}
+              src={Tile}
               text='Tile Company'
              
-              path='/'
+              path='https://ph86.github.io/tile-app'
             />
             <CardItem
               src={Placeholder}
