@@ -6,6 +6,7 @@ import Placeholder from '../Images/img-03.jpeg';
 import Tempest from '../Images/projectTempest.png';
 import Tile from '../Images/projectTile.png';
 import OriginalPort from '../Images/origin-Portfo.png';
+import JSProjects from '../Images/js-projects.png';
 
 
 function Cards(props) {
@@ -44,10 +45,10 @@ function Cards(props) {
               path='https://ph86.github.io/tile-app'
             />
             <CardItem
-              src={Placeholder}
+              src={JSProjects}
               text='Miniature Projects'
              
-              path='/services'
+              path='https://ph86.github.io/js-projects/'
             />
           
           
