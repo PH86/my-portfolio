@@ -2,10 +2,11 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import Lab from '../Images/projectLab.png';
+import Ecommerce from '../Images/ecommerce.png'
 import Placeholder from '../Images/img-03.jpeg';
 import Tempest from '../Images/projectTempest.png';
 import Tile from '../Images/projectTile.png';
-import OriginalPort from '../Images/origin-Portfo.png';
+import NewsApp from '../Images/NewsApp.png';
 import JSProjects from '../Images/js-projects.png';
 
 
@@ -22,10 +23,10 @@ function Cards(props) {
               path='https://ph86.github.io/gym-app/'
             />
             <CardItem
-              src={Placeholder}
-              text='Comic Store App'
+              src={Ecommerce}
+              text='E-commerce App'
              
-              path=''
+              path='https://ph86.github.io/ecommerce'
             />
           
           
@@ -53,10 +54,10 @@ function Cards(props) {
           
           
             <CardItem
-              src={OriginalPort}
-              text='HTML and CSS Portfolio'
+              src={NewsApp}
+              text='News App using external API'
               
-              path='https://ph86.github.io/portfolio-original/'
+              path='https://ph86.github.io/news-app/'
             />
             
            </ul>
